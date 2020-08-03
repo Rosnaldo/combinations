@@ -1,0 +1,31 @@
+.combination {
+  padding: 0.5em;
+  display: flex;
+}
+
+.combination > .material-icons {
+  font-size: 1.3em;
+  cursor: pointer;
+  vertical-align: middle;
+  padding-top: 0.2%;
+}
+
+.combination > .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.combination > .container > p {
+  margin: 0.2% 2%;
+  font-size: 1.3em;
+}
+
+.combination > .container > div {
+  display: flex;
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+}

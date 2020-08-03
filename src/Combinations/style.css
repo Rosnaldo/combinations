@@ -1,0 +1,12 @@
+.combinations {
+  height: 60%;
+  overflow-y: auto;
+  border-top: solid 1px black;
+}
+
+.combinations > p {
+  font-size: 2em;
+  margin: 1%;
+  width: 100%;
+  text-align: center;
+}

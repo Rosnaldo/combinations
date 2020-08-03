@@ -1,0 +1,21 @@
+.worker-cdjbh {
+  display: flex;
+  padding: 1%;
+  height: 20%;
+  border-bottom: solid 1px black;
+}
+
+.worker-cdjbh > p {
+  width: 100%;
+  font-size: 1.3em;
+  padding: 1.5% 2.5%;
+  padding-left: 5%;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.worker-cdjbh > img {
+  width: 40px;
+  border-radius: 20px;
+  margin-left: 2%;
+}

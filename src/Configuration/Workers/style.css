@@ -1,0 +1,23 @@
+.workers {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.workers > strong {
+  font-size: 1.3em;
+  padding: 2%;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.workers > .container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}

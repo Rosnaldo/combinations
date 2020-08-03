@@ -1,0 +1,15 @@
+.signal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+  margin: 0 0.5%;
+}
+
+.signal > strong {
+  font-size: 1em;
+  margin: 0;
+}
