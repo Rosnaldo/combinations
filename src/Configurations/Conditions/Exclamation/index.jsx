@@ -5,11 +5,12 @@ const handleClick = (setShow) => {
   setShow(curr => !curr);
 };
 
-function Exclamation() {
-  const [show, setShow] = useState(true);
+function Exclamation(props) {
+  const { exclamation } = props;
+  const [show, setShow] = useState(exclamation);
   return (
     <div className="exclamation" onClick={() => handleClick(setShow)}>
-      <strong>{show ? '' : '!'}</strong>
+      <strong>{show ? '!' : ''}</strong>
     </div>
   );
 }

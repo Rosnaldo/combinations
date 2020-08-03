@@ -5,8 +5,9 @@ const handleClick = (setEE) => {
   setEE(curr => !curr);
 };
 
-function Signal() {
-  const [ee, setEE] = useState(false);
+function Signal(props) {
+  const { signal } = props;
+  const [ee, setEE] = useState(signal);
   return (
     <div className="signal" onClick={() => handleClick(setEE)}>
       <strong>{ee ? '&&' : ''}</strong>

@@ -1,13 +1,31 @@
 .combinations {
   padding: 1% 2%;
   height: 60%;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.combinations > strong {
+.combinations > .field {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.combinations > .field > .material-icons {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.combinations > .field > strong {
   font-size: 1.5em;
   padding: 0 1%;
   text-align: center;
   color: #066d5c;
   margin: 0 2%;
+}
+
+.combinations > .board {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
 }

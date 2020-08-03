@@ -17,9 +17,9 @@ function Combination(props) {
         </span>
         <div className="container">
           <p>Combination {index + 1}</p>
-          <div>
-            {show && teams.map(({ id, team }, index) => (
-              <Team key={id} team={team} index={index} />
+          <div className="teams">
+            {show && teams.map((team, index) => (
+              <Team key={`team${index}`} team={team} index={index} />
             ))}
           </div>
         </div>

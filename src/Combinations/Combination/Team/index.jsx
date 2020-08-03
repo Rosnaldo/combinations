@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Worker from '../../../Components/Worker';
+import Workers from '../../../services/Workers';
 import './style.css';
 
 const handleClick = (setShow) => {
@@ -8,7 +9,7 @@ const handleClick = (setShow) => {
 
 function Team(props) {
   const { team, index } = props;
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div className="team">
       <span className="material-icons" onClick={() => handleClick(setShow)}>
@@ -16,9 +17,11 @@ function Team(props) {
       </span>
       <div className="container">
         <p>Team {index + 1}:</p>
-        {show && team.map(({ id, img, name }) => (
-          <Worker key={id} img={img} name={name} />
-        ))}
+        {show && team.map((id, index) => {
+          const { name, img } = Workers[id];
+          return (
+          <Worker key={`worker${index}`} img={img} name={name} />
+        )})}
       </div>
     </div>
   );

@@ -22,6 +22,7 @@
   font-size: 1.3em;
 }
 
-.combination > .container > div {
+.combination > .container > .teams {
   display: flex;
+  flex-direction: column;
 }

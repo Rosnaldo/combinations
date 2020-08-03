@@ -1,0 +1,8 @@
+.proper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 18%;
+  margin-left: 1%;
+}
