@@ -1,6 +1,7 @@
 .combination {
   padding: 0.5em;
   display: flex;
+  border-bottom: solid 1px #00a085;
 }
 
 .combination > .material-icons {
@@ -23,9 +24,4 @@
 
 .combination > .container > div {
   display: flex;
-}
-
-.line {
-  background-color: black;
-  height: 1px;
 }

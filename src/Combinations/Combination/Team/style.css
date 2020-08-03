@@ -1,7 +1,6 @@
 .team {
   padding: 0.5% 0;
   display: flex;
-  background-color: white;
   width: 100%;
 }
 
@@ -11,12 +10,6 @@
 }
 
 .team > .container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.team > .container > div {
   display: flex;
   width: 100%;
 }

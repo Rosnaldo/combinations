@@ -15,12 +15,10 @@ function Team(props) {
         {show ? 'remove' : 'add'}
       </span>
       <div className="container">
-        <p>Team {index + 1}</p>
-        <div>
-          {show && team.map(({ id, img, name }) => (
-            <Worker key={id} img={img} name={name} />
-          ))}
-        </div>
+        <p>Team {index + 1}:</p>
+        {show && team.map(({ id, img, name }) => (
+          <Worker key={id} img={img} name={name} />
+        ))}
       </div>
     </div>
   );

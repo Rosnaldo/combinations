@@ -1,0 +1,16 @@
+.exclamation {
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.exclamation > strong {
+  font-size: 1.3em;
+  margin: 0;
+}

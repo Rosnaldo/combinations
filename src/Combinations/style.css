@@ -1,12 +1,13 @@
 .combinations {
+  padding: 1% 2%;
   height: 60%;
   overflow-y: auto;
-  border-top: solid 1px black;
 }
 
-.combinations > p {
-  font-size: 2em;
-  margin: 1%;
-  width: 100%;
+.combinations > strong {
+  font-size: 1.5em;
+  padding: 0 1%;
   text-align: center;
+  color: #066d5c;
+  margin: 0 2%;
 }

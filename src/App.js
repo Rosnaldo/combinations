@@ -1,12 +1,12 @@
 import React from 'react';
 import Combinations from './Combinations';
-import Configuration from './Configuration';
+import Configurations from './Configurations';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Configuration />
+      <Configurations />
       <Combinations />
     </div>
   );

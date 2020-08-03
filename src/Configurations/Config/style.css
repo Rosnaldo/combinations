@@ -1,0 +1,29 @@
+.config {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.config > strong {
+  font-size: 1.3em;
+  padding: 0.3em;
+  text-align: center;
+  color: #066d5c;
+}
+
+.config > .field {
+  display: flex;
+  padding: 2% 5%;
+}
+
+.config > .field > p {
+  font-size: 1.3em;
+  margin: 0;
+  margin-right: 2%;
+  padding: 0 1%;
+}
+
+.config > .field > input {
+  width: 25%;
+}

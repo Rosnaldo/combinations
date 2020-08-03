@@ -1,5 +1,6 @@
 import React from 'react';
 import Worker from '../../../Components/Worker';
+import Exclamation from '../Exclamation';
 import Signal from '../Signal';
 import './style.css';
 
@@ -17,9 +18,11 @@ const worker2 ={
 function Condition() {
   return (
     <div className="condition">
+      <Exclamation />
       <Worker name={worker1.name} img={worker1.img} />
       <Signal signal="&&" />
       <Worker name={worker2.name} img={worker2.img} />
+      <Signal signal="&&" />
     </div>
   );
 }

@@ -24,7 +24,6 @@ function Combination(props) {
           </div>
         </div>
       </div>
-      <div className="line" />
     </React.Fragment>
   );
 }
