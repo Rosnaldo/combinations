@@ -10,7 +10,7 @@ function Condition(props) {
     <div className="condition">
       <Exclamation exclamation={exclamation} />
       {propers.map((proper) => (
-        <Proper proper={proper} />
+        <Proper key={proper.id} proper={proper} />
       ))}
     </div>
   );

@@ -4,17 +4,44 @@ import './style.css';
 
 const expressions = [
   {
-    exclamation: true,
+    exclamation: 'NOT',
     propers: [
       {
+        id: 'afer24de',
         workerId: 'qidq8778',
-        signal: true,
+        signal: 'AND',
       },
       {
-        workerId: 'qidq8778',
-        signal: true,
+        id: '2e32fg5g',
+        workerId: 'yy63e3ghrfefr44',
+        signal: 'AND',
+      },
+      {
+        id: 'afer2e2de',
+        workerId: 'yyede3ghg54thf4',
+        signal: 'AND',
+      },
+      {
+        id: '1egg553',
+        workerId: 'yyede3ghg54thf4def4',
+        signal: '',
       },
     ],
+  },
+  {
+    exclamation: 'NOT',
+    propers: [
+      {
+        id: 'afer242f4',
+        workerId: 'qi12ef8',
+        signal: 'WITH',
+      },
+      {
+        id: '2e3234t5g',
+        workerId: 'qudyq7',
+        signal: 'WITH',
+      },
+    ]
   }
 ]
 

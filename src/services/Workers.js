@@ -39,28 +39,28 @@ module.exports = {
     name: 'Douglas Henrique',
     img: 'https://media-exp1.licdn.com/dms/image/C4D03AQFzS1bN6D-_RQ/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=xlP3ghAGaVle-_IBGwvoHkecSE8-M7e-dMZW019WkRw',
   },
-  // at5tdwqdeff: {
-  //   name: 'Felipe Andrade',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4D03AQHa_aOgh_BaIA/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=QbF1TdXKdSnZ9YEmW7Ps68sU-jWFXyrEaTdlvUrIboc',
-  // },
-  // a4t535gh: {
-  //   name: 'Julio Cesar',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEbpGxJ-AmzAg/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=iChVRcoe1fyjdzhW0VZG8p9qIKBLlSavD8JUlClYck0',
-  // },
-  // yy63de: {
-  //   name: 'Lauro Lyra',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=KSwGgy2OBD8fMtRljOHCox6o5nvYnOSqvRsFrinNxBM',
-  // },
-  // yy63ewfgr: {
-  //   name: 'Kevin Mendes',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4E03AQHeQ4crSQxvqA/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=WjggVnbhh-egCJeJID6mxuXLzelwWMcTIYj_YFTKArU',
-  // },
-  // yy63ewfgrf44: {
-  //   name: 'Miguel Miranda',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4D03AQGOdYb6NPnk_A/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=YNGz_op8ss89Lg95MUkT8Mpm__ZJCwS3jV_-miFsOU4',
-  // },
-  // yy63e3ghrf44: {
-  //   name: 'Johnathas Henrique',
-  //   img: 'https://media-exp1.licdn.com/dms/image/C4D03AQE0HI6wfxIJyg/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=Wmr5wGlqYQQYGP4-jO_tTmauVlzfwO_Hh9SNdnd8ksk',
-  // }
+  at5tdwqdeff: {
+    name: 'Felipe Andrade',
+    img: 'https://media-exp1.licdn.com/dms/image/C4D03AQHa_aOgh_BaIA/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=QbF1TdXKdSnZ9YEmW7Ps68sU-jWFXyrEaTdlvUrIboc',
+  },
+  a4t535gh: {
+    name: 'Julio Cesar',
+    img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEbpGxJ-AmzAg/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=iChVRcoe1fyjdzhW0VZG8p9qIKBLlSavD8JUlClYck0',
+  },
+  yy63de: {
+    name: 'Lauro Lyra',
+    img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=KSwGgy2OBD8fMtRljOHCox6o5nvYnOSqvRsFrinNxBM',
+  },
+  yy63ewfgr: {
+    name: 'Kevin Mendes',
+    img: 'https://media-exp1.licdn.com/dms/image/C4E03AQHeQ4crSQxvqA/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=WjggVnbhh-egCJeJID6mxuXLzelwWMcTIYj_YFTKArU',
+  },
+  yy63ewfgrf44: {
+    name: 'Miguel Miranda',
+    img: 'https://media-exp1.licdn.com/dms/image/C4D03AQGOdYb6NPnk_A/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=YNGz_op8ss89Lg95MUkT8Mpm__ZJCwS3jV_-miFsOU4',
+  },
+  yy63e3ghrf44: {
+    name: 'Johnathas Henrique',
+    img: 'https://media-exp1.licdn.com/dms/image/C4D03AQE0HI6wfxIJyg/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=Wmr5wGlqYQQYGP4-jO_tTmauVlzfwO_Hh9SNdnd8ksk',
+  }
 };

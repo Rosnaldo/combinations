@@ -4,7 +4,7 @@ import calculator from '../services/Calculator';
 import './style.css';
 
 const handleClick = (setCombs) => {
-  setCombs(calculator([], 2, 2));
+  setCombs(calculator(4, 2));
 };
 
 function Combinations() {
@@ -13,7 +13,7 @@ function Combinations() {
   return (
     <div className="combinations">
       <div className="field">
-        <span class="material-icons" onClick={() => handleClick(setCombs)}>
+        <span className="material-icons" onClick={() => handleClick(setCombs)}>
           play_circle_outline
         </span>
         <strong>Combinations:</strong>
