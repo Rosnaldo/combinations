@@ -1,0 +1,25 @@
+.worker-cef {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+  display: flex;
+  margin: 0 0.5%;
+  padding: 0.1em 0.3em;
+  width: 14%;
+}
+
+.worker-cef > input {
+  margin: 0 5%;
+  width: 25px;
+}
+
+.worker-cef > p {
+  font-size: 0.9em;
+  margin: 0 0.5em;
+}
+
+.worker-cef > img {
+  border-radius: 20px;
+  width: 35px;
+}

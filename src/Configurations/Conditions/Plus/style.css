@@ -1,0 +1,12 @@
+.plus {
+  align-items: center;
+  display: flex;
+  margin-left: 1%;
+}
+
+.plus > .material-icons {
+  cursor: pointer;
+  font-size: 2em;
+  height: 1em;
+  width: 1em;
+}

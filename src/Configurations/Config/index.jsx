@@ -6,8 +6,8 @@ function Config() {
   const {
     teamSize,
     setTeamSize,
-    combs,
-    setCombs,
+    n_combs,
+    setN_combs,
   } = useContext(Context);
 
   return (
@@ -19,7 +19,7 @@ function Config() {
       </div>
       <div className="field">
         <p>Combs:</p>
-        <input type="number" value={combs} onChange={(e) => setCombs(e.target.value)} />
+        <input type="number" value={n_combs} onChange={(e) => setN_combs(e.target.value)} />
       </div>
     </div>
   );

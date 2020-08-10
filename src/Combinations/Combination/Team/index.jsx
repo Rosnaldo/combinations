@@ -18,9 +18,9 @@ function Team(props) {
       <div className="container">
         <p>Team {index + 1}:</p>
         {show && team.map((id, index) => {
-          const { name, img } = Workers[id];
+          const { abbreviation, img } = Workers[id];
           return (
-          <Worker key={`worker${index}`} img={img} name={name} />
+          <Worker key={`worker${index}`} img={img} name={abbreviation} />
         )})}
       </div>
     </div>

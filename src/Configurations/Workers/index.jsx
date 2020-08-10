@@ -8,8 +8,8 @@ function Workers() {
     <div className="workers">
       <strong>Workers: {Object.values(workers).length}</strong>
       <div className="container">
-        {Object.keys(workers).map((id) => (
-          <Worker key={id} name={workers[id].name} img={workers[id].img} />
+        {Object.keys(workers).map((id, index) => (
+          <Worker key={id} name={workers[id].name} img={workers[id].img} index={index} />
         ))}
       </div>
     </div>
